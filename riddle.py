@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 from itertools import permutations 
-import time
-import os
 
 liseis = list(list(x) for x in permutations([i for i in range(10)],4))
 to_remove = []
 
 ## Implementing test
-
 def check_1(l,c): #One number is correct but in wrong position
     f=False
     for i in c:
@@ -80,7 +77,7 @@ def check_5(l,c): #Two numbers are correct and in correct positions
 
     if not f:
         to_remove.append(l)
-
+##Unused function
 def check_6(l,c): #At least one number is in correct position
     f = False
     for t, i in enumerate(l):
