@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-from itertools import permutations 
+from itertools import permutations, combinations_with_replacement, combinations, product
 
-liseis = list(list(x) for x in permutations([i for i in range(10)],4))
+liseis = list(list(x) for x in product([i for i in range(10)],repeat=4))
+print(len(liseis))
 to_remove = []
 
 ## Implementing test
