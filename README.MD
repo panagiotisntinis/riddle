@@ -1,7 +1,8 @@
 I found a puzzle online and I tried to practice my python skills.
 My code is really bad, but I didn't want to work more than half an hour on it.
+This is a repository started just for testing how git works, etc... but maybe someday we create a large selection of riddle solvers.
 
-The riddle is:
+The first riddle is:
 
 Could you find my PIN?
 
